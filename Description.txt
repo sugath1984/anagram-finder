@@ -1,0 +1,14 @@
+You are required to implement a program which is able to print out all anagrams of a specified string.
+Two strings will become anagrams if letters of one string can be rearranged to obtain the other string. 
+For example, the string "rats" is an anagram of "star".
+Your first step is to load the given dictionary (words_anagram.txt) into a hash table enabling the user 
+to efficiently look for anagrams of a given word/s. 
+The user should have the facility to specify anagram queries through stating the required word/s. 
+The output should print out the given string/s along with the number of matching anagrams and the corresponding list 
+of anagrams retrieved from the hash table.
+
+       Example :     traps   	sprat  	strap
+                    	opt		top	 pot
+                    	star	rats
+ 
+      Note: The matching anagrams that the program prints out may be ordered differently.
